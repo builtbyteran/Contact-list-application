@@ -41,12 +41,12 @@ export default function Home() {
 
         <Container>
         <Row>
-         <Col className='sm'>Profile Pic</Col>
-         <Col className='sm'>Name</Col>
-         <Col className='sm'>Email</Col>
-         <Col className='sm'>Phone</Col>
-         <Col className='sm'></Col>
-       </Row>
+        <Col className='sm'>Profile Pic</Col>
+        <Col className='sm'>Name</Col>
+        <Col className='sm'>Email</Col>
+        <Col className='sm'>Phone</Col>
+        <Col className='sm'></Col>
+      </Row>
           {searchResult && (
         <Row className='contacts-list' key={searchResult.uniqueId}>
           <Col className='sm'>
