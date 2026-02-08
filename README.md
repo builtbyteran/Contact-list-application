@@ -1,20 +1,42 @@
+# Contact List App
+
+A contact management app built with Next.js and React.
+
+## Try it out here
+
+- ...Not live yet
+
+## Features
+
+- Contact management
+- Search functinality
+- Contact details
+- Mock API
+
+## Technologies Used
+
+- Next.js
+- React
+- Bootstrap
+
+## What I learned
+
+- Building with Next.js App Router
+- State management
+- Component composition
+- Form handling
+- Creating reusable API utils
+
+## Roadmap
+
+- Edit contacts
+- Delete contacts
+- Form validation
+- Data persistence
+- Contact grouping and favorites
+
 ## Contact List
 
-To get started:
+This project has been created by a student at Parsity, an online software engineering course. The work in this repository is wholly of the student based on a sample starter project that can be accessed by looking at the repository that this project forks.
 
-- Clone the Repo
-- Open on vscode
-- Open terminal within vscode
-- Type and enter ' npm i ', then ' npm run dev '
-- Open up ' http://localhost:3000/ ' in your browser
-
-Troubleshooting vscode terminal:
-
-- If your on windows and can't use the terminal within vscode, go to Settings/System/For Developers, on the PowerShell dropdown menu you can enable ' Change execution policy to allow local Powershell scripts to run wihtout signing. '
-
-Roadmap:
-
-- Refactor in typescript for learning purposes
-- Improve data handling (functional programming)
-- Utilize tailwind css for learning purposes
-- Re-construct with redux for learning purposes
+If you have any questions about this project or the program in general, visit [parsity.io](https://parsity.io/) or email hello@parsity.io.

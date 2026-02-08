@@ -6,8 +6,9 @@ import Link from "next/link";
 import Row from "react-bootstrap/Row";
 import { useState } from "react";
 
+
 export default function Contact() {
-  const [allContacts, _] = useState(ContactAPI.all());
+  const allContacts = ContactAPI.all();
 
     return (
     <Container className="contacts-div">
