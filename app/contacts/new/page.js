@@ -11,12 +11,12 @@ const defaultImage =
   'https://wallpapersok.com/images/hd/angel-default-pfp-a1ur2igijuw6g02n.jpg';
 
 export default function AddNewContact() {
-  // const [formData, setFormData] = useState({
-  //   name: '',
-  //   email: '',
-  //   image: defaultImage,
-  //   phoneNumber: '',
-  // });
+  const [contactForm, setContactForm] = useState({
+    name: '',
+    email: '',
+    image: defaultImage,
+    phoneNumber: '',
+  });
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -37,6 +37,8 @@ export default function AddNewContact() {
     const uniqueId = generateUniqueId();
 
     // console.log(uniqueId);
+
+
 
     try {
       ContactAPI.addContact({

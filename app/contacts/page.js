@@ -9,8 +9,8 @@ import Row from 'react-bootstrap/Row';
 import { ContactAPI } from '../data/contactsAPI';
 
 export default function Contact() {
-  const allContacts = ContactAPI.all();
-  // const [contacts, setContacts] = useState([]);
+  // const allContacts = ContactAPI.all();
+  const [contacts, setContacts] = useState([]);
 
   return (
     <Container className="contacts-div">
@@ -21,7 +21,7 @@ export default function Contact() {
         <Col className="sm">Phone</Col>
       </Row>
       {/* UPDATE to use Card, pass in a key to help with rendering state changes, Use the id for the key */}
-      {allContacts.map((contact) => (
+      {/* {allContacts.map((contact) => (
         <Row key={contact.uniqueId}>
           <Col>
             <Image src={contact.image} roundedCircle />
@@ -32,7 +32,7 @@ export default function Contact() {
           <Col>{contact.email}</Col>
           <Col>{contact.phoneNumber}</Col>
         </Row>
-      ))}
+      ))} */}
       {/* {allContacts.map((c) => (
         <Row className="contacts-list" key={c.uniqueId}>
           <Col className="sm">
