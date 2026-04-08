@@ -4,7 +4,7 @@ A contact management app built with Next.js and React.
 
 ## Try it out here
 
-- ...Not live yet
+- contact-list-application-phi.vercel.app
 
 ## Features
 
